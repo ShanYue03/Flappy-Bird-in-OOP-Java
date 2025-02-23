@@ -25,25 +25,25 @@ A JavaFX-based Flappy Bird clone featuring object-oriented design, dynamic diffi
 ## 🧩 Class Structure & OOP Principles
 1. Encapsulation
 
-FlappyBird encapsulates game logic (bird physics, pipe generation, collision detection).
+- FlappyBird encapsulates game logic (bird physics, pipe generation, collision detection).
 
-Scoreboard data is managed via serialization (saveScores(), loadScores()).
+- Scoreboard data is managed via serialization (saveScores(), loadScores()).
 
 2. Inheritance
 
-JavaFX components extended (e.g., GameView inherits Pane, FlappyBird extends StackPane).
+- JavaFX components extended (e.g., GameView inherits Pane, FlappyBird extends StackPane).
 
 3. Polymorphism
 
-Overloaded playSong() in Voice class for different sound effects.
+- Overloaded playSong() in Voice class for different sound effects.
 
-Dynamic UI updates via method overrides (e.g., draw() in GameView).
+- Dynamic UI updates via method overrides (e.g., draw() in GameView).
 
 4. Abstraction
 
-Separated game logic (FlappyBird) from UI rendering (GameView).
+- Separated game logic (FlappyBird) from UI rendering (GameView).
 
-Abstracted pipe behavior into Pipe nested class.
+- Abstracted pipe behavior into Pipe nested class.
 
 ## 🛠️ Technical Implementation
 Game Loop:
@@ -78,15 +78,15 @@ File I/O: java.io.Serializable for leaderboard persistence.
 
 3. Resource Management:
 
-Image loading from disk (new Image("file:path.png")).
+- Image loading from disk (new Image("file:path.png")).
 
-Audio integration with threading via PauseTransition.
+- Audio integration with threading via PauseTransition.
 
 4. Code Quality:
 
-Constants (WIDTH, HEIGHT) for maintainability.
+- Constants (WIDTH, HEIGHT) for maintainability.
 
-Modular collision detection and physics systems.
+- Modular collision detection and physics systems.
 
 ## 📦 How to Run
 Requirements:
