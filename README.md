@@ -3,6 +3,10 @@
 ## 🕹️ Flappy Bird Game
 A JavaFX-based Flappy Bird clone featuring object-oriented design, dynamic difficulty, sound effects, theme customization, and persistent leaderboards. Built to demonstrate advanced Java programming and OOP concepts.
 
+
+https://github.com/user-attachments/assets/b6788090-8617-45be-b346-a809dd476f06
+
+
 ## 🚀 Key Features
 1. Player Customization: Enter your name and track high scores with a serialized leaderboard (scores.dat).
 
